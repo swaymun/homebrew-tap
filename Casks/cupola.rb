@@ -1,13 +1,13 @@
 cask "cupola" do
-  version "1.0.251"
-  sha256 "ee19d03ad30e7457ff4bad5a31e38fb5c802640b00697c5c02ce573ec410f9bb"
+  version "1.0.257"
+  sha256 "0aa6acb4e97e5bed576d0ac96d1777a4d5c8caf58d0b072d5be73386d66d10f6"
 
-  url "https://github.com/swaymun/cupola/releases/download/mac-v#{version}/Cupola-#{version}.zip"
+  url "https://github.com/swaymun/cupola/releases/download/host-v#{version}/Cupola-#{version}.zip"
   name "Cupola"
   desc "Persistent agent conversations on your computer, connected to your iPhone"
   homepage "https://github.com/swaymun/cupola"
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
   depends_on arch: :arm64
   conflicts_with cask: "wonder"
 
