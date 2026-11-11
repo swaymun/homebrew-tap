@@ -1,6 +1,6 @@
 cask "cupola" do
-  version "1.0.257"
-  sha256 "0aa6acb4e97e5bed576d0ac96d1777a4d5c8caf58d0b072d5be73386d66d10f6"
+  version "1.0.258"
+  sha256 "8e462c78b593e012047ba1707d5bc05dfda755724e6df58295ba6faefa3d0b54"
 
   url "https://github.com/swaymun/cupola/releases/download/host-v#{version}/Cupola-#{version}.zip"
   name "Cupola"
@@ -16,7 +16,7 @@ cask "cupola" do
 
   caveats do
     <<~EOS
-      Set up with `cupola init`, then `cupola start` and `cupola pair`.
+      Set up with `cupola init`, then `cupola service install` (starts Cupola now and at every login) and `cupola pair`.
       Use `brew upgrade --cask cupola` to update a Homebrew installation,
       then `cupola service restart` if you installed the login service.
       Conversations, pairing and provider sign-ins are kept on uninstall.
