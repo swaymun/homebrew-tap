@@ -1,6 +1,6 @@
 cask "cupola" do
-  version "1.0.258"
-  sha256 "8e462c78b593e012047ba1707d5bc05dfda755724e6df58295ba6faefa3d0b54"
+  version "1.0.259"
+  sha256 "98abaea543252ee0df7268c6b314ad4966407e218ed053c46fe229c1f19048fc"
 
   url "https://github.com/swaymun/cupola/releases/download/host-v#{version}/Cupola-#{version}.zip"
   name "Cupola"
